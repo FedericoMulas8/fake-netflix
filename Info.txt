@@ -5,7 +5,7 @@ Divisione Responsabilità:
 
 Prima sezione / Header - Xhilda 
 Seconda sezione - Alessio
-Terza sezione - Federico Mulas 
+Terza sezione - Federico 
 Quarta sezione - Giuseppe
 Quinta sezione - Simone
 Sesta/Settima sezione - Ivan
