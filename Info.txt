@@ -1,0 +1,12 @@
+Fullstack 4 Team 5.
+Netflix clone project.
+
+Divisione Responsabilità:
+
+Prima sezione / Header - Xhilda 
+Seconda sezione - Alessio
+Terza sezione - Federico Mulas 
+Quarta sezione - Giuseppe
+Quinta sezione - Simone
+Sesta/Settima sezione - Ivan
+
