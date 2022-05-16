@@ -4,7 +4,6 @@
     box-sizing: border-box;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
 }
 
 :root {
@@ -14,10 +13,9 @@
 }
 
 /* Xhilda Start */
- 
-body {
-    background-color: #000;
-    color: #fff;
+
+  .body_0 {
+    color: white;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -40,7 +38,7 @@ body {
     text-indent: 10px;
   }
   
-   .get-started_0 button {
+   .get-started_0 button, button {
     height: 3.8rem;
     width: 30%;
     background-color: #e50914;
@@ -57,14 +55,14 @@ body {
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.9)
       ),
-      url("assets/background_0.png");
+     url("assets/background_0.png");
     background-size: 100vw;
     width: 100%;
     height: 99vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 8px solid #222;
+    border-bottom: 8px solid darkgrey;
   }
   
   .header-top_0 {
