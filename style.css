@@ -12,6 +12,34 @@
     --section-height: 100%;
 }
 
-html {
+.flex-container_1 {
     background-color: black;
+    min-height: var(--section-height-min);
+    height: var(--section-height);
+}
+
+.first-block_1 {
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 150px;
+    flex: 1;
+}
+
+.first-block_1 p {
+    font-size: 26px;
+    padding-top: 15px;
+
+}
+
+.flex-container_1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: var(--bottom-border);
+}
+
+.second-block_1 {
+    margin-right: 200px;
+    flex: 1;
 }
