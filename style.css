@@ -11,3 +11,7 @@
     --section-height-min: 70vh;
     --section-height: 100%;
 }
+
+html {
+    background-color: black;
+}
