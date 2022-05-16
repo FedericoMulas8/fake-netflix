@@ -12,3 +12,131 @@
     --section-height-min: 70vh;
     --section-height: 100%;
 }
+
+/* Xhilda Start */
+ 
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: sans-serif;
+  }
+  
+   .header-content_0 h1 {
+    font-size: 3.5rem;
+  }
+  
+   .header-content_0 h2 {
+    font-size: 1.625rem;
+  }
+  
+   .get-started_0 input {
+    height: 3.5rem;
+    width: 70%;
+    font-size: 1rem;
+    text-indent: 10px;
+  }
+  
+   .get-started_0 button {
+    height: 3.8rem;
+    width: 30%;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+   .header_0 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("assets/background_0.png");
+    background-size: 100vw;
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 8px solid #222;
+  }
+  
+  .header-top_0 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100vw;
+    flex: 0.5;
+  }
+  
+  .left_0 {
+    margin-left: 2rem;
+  }
+  
+  .left_0 > img {
+    width: 150px;
+    height: 50px;
+  }
+  
+  .right_0 {
+    display: flex;
+    margin-right: 2rem;
+  }
+ 
+  .right_0 > select::before {
+    font-size: .75rem;
+    left:0.5rem;
+    color: black;
+  }
+  
+  .right_0 > select {
+    width: 100px;
+    height: 40px;
+    margin-right: 2rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  .right_0 > button {
+    width: 100px;
+    height: 40px;
+    font-size: 1.1rem;
+    border-radius: 2px;
+  }
+  
+  .header-content_0 {
+    max-width: 45rem;
+    text-align: center;
+  }
+  
+  .header-content_0 > h2 {
+    margin-top: 1rem;
+  }
+  
+  .header-content_0 > h3 {
+    margin-top: 1.5rem;
+  }
+  
+  .get-started_0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 45rem;
+  }
+ 
+   .get-started_0 button:hover {
+    background-color: #f40612;
+  }
+ 
+  /* Xhilda End */
