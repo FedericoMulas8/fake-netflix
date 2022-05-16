@@ -42,4 +42,30 @@
 .second-block_1 {
     margin-right: 200px;
     flex: 1;
+    margin-bottom: 75px;
+}
+
+.img_1 {
+    position: absolute;
+}
+
+.video_1 {
+    width: 90%;
+    height: 85%;
+    z-index: 2;
+}
+
+@media screen and (max-width:780px) {
+    .flex-container_1 {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
