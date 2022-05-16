@@ -12,6 +12,10 @@
     --section-height: 100%;
 }
 
+html {
+    background-color: black;
+}
+
 /* Xhilda Start */
 
   .body_0 {
