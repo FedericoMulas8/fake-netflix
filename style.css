@@ -7,7 +7,7 @@
 }
 
 :root {
-    --bottom-border: 8px solid darkgray;
+    --bottom-border: 8px solid  #292929;
     --section-height-min: 70vh;
     --section-height: 100%;
 }
@@ -44,6 +44,7 @@ html {
     align-items: center;
     text-align: center;
     flex-shrink: 1;
+    position: relative;
 
 }
 
@@ -61,7 +62,8 @@ html {
     /* width: 25%; */
     /* height: 15%; */
     position: absolute;
-    bottom: 40%;
+    bottom: 10%;
+    left: 25%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -103,9 +105,9 @@ html {
 
 .righttesto_2 {
     /* border: 3px solid orange; */
-    max-width: 70%;
+    max-width: 90%;
     max-height: 90%;
-    font-size: 1.5rem;
+    font-size: 30px;
 }
 
 .righttesto_2 h2 {
@@ -141,17 +143,20 @@ html {
         height: 50%;
     }
 
+    .telefono_2 {
+        /* flex-basis: content; */
+        flex-shrink: 0;
+        position: relative;
+    }
+
     .box_2 {
         position: absolute;
-        top: 470px;
+        /* top: 470px; */
+        right: 20%;
         width: fit-content;
         height: max-content;
     }
 
-    .telefono_2 {
-        flex-basis: content;
-        flex-shrink: 0;
-    }
 
 }
 
